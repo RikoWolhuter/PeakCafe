@@ -1,0 +1,17 @@
+.gridContainer{
+    display:grid;
+    text-align: center;
+    background-color:green;
+    grid-template-columns: auto auto auto;
+    grid-gap:20px;
+
+
+}
+
+
+.container{
+    text-align: center;
+    background-color: darkolivegreen;
+    padding:100px;
+
+}
