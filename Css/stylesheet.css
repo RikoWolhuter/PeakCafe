@@ -33,24 +33,29 @@
     opacity: 1 !important;
 }
 
-
+.MenuList{
+    position: absolute;
+    margin-left: 42%;
+}
 
 .nav-link{
-    color: white;
+    color: rgb(255, 255, 255);
     z-index: 9999;
-    position: absolute;
+    position: relative;
 
     
 }
 
 .nav-link-active{
-    color: white;    
+    color: rgb(255, 255, 255);    
     z-index: 9999;   
-    position: absolute;
+    position: relative;
     
   
     
 }
+
+
 
 
 
