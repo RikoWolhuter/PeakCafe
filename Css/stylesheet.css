@@ -80,7 +80,10 @@
     border-radius: 100%;
   }
 
-
+.AboutUs{
+    font-family: BertonVoyageRegular;
+  src: url(http://molugu.com/yantraev/BERTON-VOYAGE-TRIAL.TTF);
+}
 
 
 
