@@ -21,9 +21,7 @@
     
 }
 
-.Heading-carousel{
-    position: absolute; top: 0;
-}
+
 
 .carousel.carousel-fade .carousel-item {
     display: block;
@@ -47,6 +45,13 @@
 .nav-link-active{
     color: white;
 }
+
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+}
+
+
 
 
 
