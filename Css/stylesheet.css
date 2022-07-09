@@ -57,9 +57,11 @@
 
 .carousel-control-prev{
     width: 1%;
+    
 }
 .carousel-control-next{
     width: 1%;
+    
 }
 
 .Logo{
@@ -71,6 +73,12 @@
   margin-top: 4%;
   
 }
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
 
 
 
