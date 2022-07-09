@@ -1,26 +1,8 @@
-.gridContainer{
-    display:grid;
-    text-align: center;
-    background-color:green;
-    grid-template-columns: auto auto auto;
-    grid-gap:20px;
-
-
-}
-
-
-.container{
-    text-align: center;
-    background-color: darkolivegreen;
-    padding:100px;
-
-}
 
 .display-3{
     text-align: center;
     
 }
-
 
 
 .carousel.carousel-fade .carousel-item {
@@ -79,6 +61,41 @@
     height: 10px;
     border-radius: 100%;
   }
+
+.about{
+    text-align: center;
+}
+
+  
+  .gridContainer{
+    display:grid;
+    text-align: center;
+    background-color:#c2d93f;
+    grid-template-columns: auto auto auto;
+    grid-gap:20px;
+
+
+}
+
+
+.container{
+    text-align: center;
+    background-color: #c2d93f;
+    padding:100px;
+
+}
+
+.container p{
+    padding-top:30px;
+}
+
+
+
+ul li{
+    float:left;
+    padding-left:20px ;
+    padding-right:20px ;
+}
 
 
 
