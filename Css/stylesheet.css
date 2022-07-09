@@ -101,10 +101,18 @@
     justify-content: center;
     grid-gap:3px;
     padding:30px;
+    
 
 }
 
+.galleryContainer img{
+    transition: transform 1s;
+    overflow: hidden;
+}
 
+.galleryContainer img:hover{
+    transform:scale(1.1)
+}
 
 .container{
     text-align: center;
@@ -136,8 +144,14 @@ footer div{
 }
 
 
+footer div ul li img{
+    transition: transform 1.3s;
+}
 
+footer div ul li img:hover{
+    transform:scale(2)
 
+}
 
 
 
