@@ -37,15 +37,18 @@
 
 .nav-link{
     color: white;
-    position:absolute;
-    z-index:2;
+    z-index: 9999;
+    position: absolute;
+
     
 }
 
 .nav-link-active{
-    color: white;
-    position:absolute;
-    z-index:2;
+    color: white;    
+    z-index: 9999;   
+    position: absolute;
+    
+  
     
 }
 
