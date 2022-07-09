@@ -26,7 +26,7 @@
 .carousel.carousel-fade .carousel-item {
     display: block;
     opacity: 0;
-    transition: opacity ease-out .5s;
+    transition: opacity ease-out .3s;
 }
 
 .carousel.carousel-fade .carousel-item.active {
@@ -55,9 +55,12 @@
     
 }
 
-
-
-
+.carousel-control-prev{
+    width: 1%;
+}
+.carousel-control-next{
+    width: 1%;
+}
 
 .Logo{
     position:absolute;
