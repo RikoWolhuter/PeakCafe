@@ -51,6 +51,10 @@
     bottom: auto;
 }
 
+.Logo{
+    position:absolute;
+    z-index:2;
+}
 
 
 
