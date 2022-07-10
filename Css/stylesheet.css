@@ -101,6 +101,8 @@
     justify-content: center;
     grid-gap:3px;
     padding:30px;
+    overflow: hidden;
+    
     
 
 }
@@ -118,13 +120,21 @@
     text-align: center;
     background-color: #c2d93f;
     padding:100px;
+    margin-top: 50px;
 
 }
 
-.container p{
+.container h3{
     padding-top:30px;
 }
 
+#containerHeading{
+    padding-bottom: 100px;
+}
+
+.col-sm-4{
+    border-radius: 30px;
+}
 
 
 ul li{
@@ -137,6 +147,7 @@ ul li{
 footer{
     margin-top: 150px;
     background-color:#c2d93f;
+    padding:50px;
 }
 
 footer div{
