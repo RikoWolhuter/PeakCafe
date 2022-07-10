@@ -1,0 +1,50 @@
+body{
+    background-image: url(../images/pexels-barcelona-albertus-1924951.jpg);
+}
+
+nav{
+    margin-bottom: 150px;
+}
+
+h2{
+    color: white;
+}
+
+.container{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+form{
+    display:block;
+}
+
+.containerTwo{
+    text-align: center;
+    
+}
+
+ul li{
+    color: white;
+}
+
+#name{
+    display:block;
+}
+
+#email{
+    display:block;
+}
+
+#phone{
+    display:block;
+}
+
+#textBox{
+    display:block;
+    margin-top:50px;
+}
+
+#submit{
+    margin-top:50px;
+}
