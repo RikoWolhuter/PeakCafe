@@ -126,13 +126,17 @@
     text-align: center;
     background-color: #c2d93f;
     padding:100px;
-    margin-top: 50px;
-
+    
 }
 
 .backgroundOfContainer{
-    background-image: url("frui");
-    background-color: #cccccc;
+    background-image: url("/images/Fish-Hoek-beach.jpeg");
+    background-color: #6d6d6d;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .container h3{
@@ -157,7 +161,7 @@ ul li{
 }
 
 footer{
-    margin-top: 150px;
+    
     background-color:#c2d93f;
     padding:50px;
 }
