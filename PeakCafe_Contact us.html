@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link 
+    rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="Css/contactUsStylesheet.css">
     <title>Peak Cafe</title>
 </head>
 <div>
@@ -19,6 +25,9 @@
   </div>
 
 <body>
+
+
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,7 +51,103 @@
         </div>
       </nav>
 
-    Contact us
+  
+
+  <div class="container">
+    <h2>Tell us what you think</h2>
+    <div class="row">
+      <div class="col-sm-6">
+        <form action="" method="POST" id="contactFormOne">
+          <label class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+
+          <label>Email</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+
+          <label>Phone</label>
+          <input type="tel" class="form-control" id="phone" name="phone">
+
+          <textarea name="textBox" class="form-control" id="textBox" form="contactFormOne">Enter text here</textarea>
+
+          <input type="submit" class="form-control" id="submit" name="submit">
+        </form>
+      </div>
+      <div class="col-sm-6">
+        <form action="" method="POST" id="contactFormTwo">
+          <label>Name</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+
+          <label>Email</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+
+          <label>Phone</label>
+          <input type="tel" class="form-control" id="phone" name="phone">
+          
+          <textarea name="textBox" class="form-control" id="textBox" form="contactFormOne">Enter text here</textarea>
+
+          <input type="submit"class="form-control" id="submit" name="submit">
+        </form>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="containerTwo">
+    <div class="row">
+      <div class="col-sm-4">
+        <ul class="list-unstyled">
+          <li>Phone: 071 093 7033</li>
+          <li> 72 Main Rd, Fish Hoek, Cape Town, 7975</li>
+        </ul>
+      </div>
+      <div class="col-sm-4">
+        <iframe src=
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1651.1895517697187!2d18
+        .430422180632856!3d-34.13664193810351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13
+        .1!3m3!1m2!1s0x1dcc401c451dd1d7%3A0x5a6f677ad7ee89ca!2s72%20Main%20Rd%2C%20
+        Fish%20Hoek%2C%20Cape%20Town%2C%207975!5e0!3m2!1sen!2sza!4v1657445438159!5m2!1sen!2sza"
+          width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="col-sm-4">
+        <ul class="list-unstyled">
+          <li>Monday	7am–4:30pm</li>
+          <li>Tuesday	7am–4:30pm</li>
+          <li>Wednesday	7am–4:30pm</li>
+          <li>Thursday	7am–4:30pm</li>
+          <li>Friday	7am–4:30pm</li>
+          <li>Saturday	7am–2:30pm</li>
+          <li>Sunday	Closed</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+
     
-</body>
+
+
+
+
+
+
+
+
+    <script 
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+      crossorigin="anonymous">
+    </script>
+    <script 
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" 
+      crossorigin="anonymous">
+    </script>
+    <script 
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" 
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" 
+      crossorigin="anonymous">
+    </script>
+  </body>
 </html>
