@@ -130,8 +130,14 @@
 
 }
 
+.backgroundOfContainer{
+    background-image: url("frui");
+    background-color: #cccccc;
+}
+
 .container h3{
     padding-top:30px;
+    
 }
 
 #containerHeading{
