@@ -13,3 +13,12 @@ h1{
     
 
 }
+
+.galleryContainer img{
+    transition: transform 1s;
+    overflow: hidden;
+}
+
+.galleryContainer img:hover{
+    transform:scale(1.1)
+}

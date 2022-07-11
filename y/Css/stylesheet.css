@@ -65,23 +65,29 @@
 
 .Takeaway{
     text-align: center;
-    margin-bottom: 250px;
+    padding-bottom:300px;
+    background:linear-gradient(#a3a09e,#c2d93f ,#a3a09e);
 }
 
 #buttonTakeaway{
     text-align: center;
-    
+    width:250px;
+    height:250px;
+    border-radius: 15px 50px
 }
 
 #buttonVisit{
     text-align: center;
-    
+    width:250px;
+    height:250px;
+    border-radius: 50px 15px
 }
 
 
 .about{
     text-align: center;
-    background-color: lightblue;    
+    padding:50px;
+    background: radial-gradient(#dea814,#c2d93f);    
 }
 
 
@@ -100,10 +106,12 @@
 }
 
 #borderTwo{
+    color:white;
     border-style: solid;
     border-width: 2px;
     border-color: #c2d93f;
     padding-bottom:350px;
+    background-color: black;
 
 }
 
@@ -144,7 +152,7 @@
 }
 
 .container img:hover{
-    transform:scale(1.5)
+    transform:scale(1.5);
 
 }
 
@@ -157,7 +165,7 @@
 
 .backgroundOfContainer{
     background-image: url("/images/Fish-Hoek-beach.jpeg");
-    background-color: #6d6d6d;
+    background-color: #a3a09e;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -191,7 +199,7 @@ ul li{
 
 footer{
     
-    background-color:#c2d93f;
+    background: linear-gradient( #c2d93f,#a3a09e);
     padding:50px;
 }
 
