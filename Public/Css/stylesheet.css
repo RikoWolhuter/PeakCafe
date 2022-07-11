@@ -63,6 +63,22 @@
   }
 
 
+.Takeaway{
+    text-align: center;
+    margin-bottom: 250px;
+}
+
+#buttonTakeaway{
+    text-align: center;
+    
+}
+
+#buttonVisit{
+    text-align: center;
+    
+}
+
+
 .about{
     text-align: center;
     background-color: lightblue;    
@@ -122,6 +138,16 @@
     transform:scale(1.1)
 }
 
+.container img{
+    transition: transform 1s;
+    overflow: hidden;
+}
+
+.container img:hover{
+    transform:scale(1.5)
+
+}
+
 .container{
     text-align: center;
     background-color: #c2d93f;
@@ -151,6 +177,9 @@
 .col-sm-4{
     border-radius: 30px;
 }
+
+
+
 
 
 ul li{
