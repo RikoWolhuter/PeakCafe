@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="images/LogoPeak.ico" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peak Cafe</title>
+    <link 
+      rel="stylesheet" 
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
+      crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="Css/stylesheet.css">
+</head>
+
+
+<body>
+    <form id="frm1" action="/action_page.php">
+        First name: <input type="text" name="fname"><br>
+        Last name: <input type="text" name="lname"><br><br>
+        <input type="submit" value="Submit">
+        <input type="button" onclick="Reset()" value="Reset">
+      </form> 
+      
+      <p>Click "Try it" to display the value of each element in the form.</p>
+      
+      <button onclick="Display()">Try it</button>
+      
+      <p id="demo"></p>
+      
+      <script>
+      function Display() {
+        var x = document.getElementById("frm1");
+        var text = "";
+        var i;
+        for (i = 0; i < x.length ;i++) {
+          text += x.elements[i].value + "<br>";
+        }
+        document.getElementById("demo").innerHTML = text;
+      }
+
+      function Reset() {
+  document.getElementById("frm1").reset();
+}
+      </script>
+
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyC5S4Ao2z7rNKss5d8OEthc5qNYiUYeJbY",
+      authDomain: "peakacademywebsite.firebaseapp.com",
+      projectId: "peakacademywebsite",
+      storageBucket: "peakacademywebsite.appspot.com",
+      messagingSenderId: "29394216487",
+      appId: "1:29394216487:web:9c787e16d316401766d002",
+      measurementId: "G-PPN4T1GZEJ"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+</body>
+</html>
