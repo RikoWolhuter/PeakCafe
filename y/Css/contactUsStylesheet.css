@@ -7,7 +7,7 @@ nav{
 }
 
 .MenuList{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 h2{
@@ -16,7 +16,7 @@ h2{
 
 .container{
     text-align: center;
-    margin-bottom: 175px;
+    margin-bottom: 150px;
     color:white;
 }
 
@@ -35,19 +35,23 @@ ul li{
 
 #name{
     display:block;
+    height:50px;
 }
 
 #email{
     display:block;
+    height:50px;
 }
 
 #phone{
     display:block;
+    height:50px;
 }
 
 #textBox{
     display:block;
     margin-top:50px;
+    height:200px;
 }
 
 #submit{
