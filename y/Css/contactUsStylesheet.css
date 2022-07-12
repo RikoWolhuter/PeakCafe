@@ -6,13 +6,18 @@ nav{
     margin-bottom: 150px;
 }
 
+.MenuList{
+    margin-bottom: 50px;
+}
+
 h2{
     color: white;
 }
 
 .container{
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 175px;
+    color:white;
 }
 
 form{
@@ -49,6 +54,3 @@ ul li{
     margin-top:50px;
 }
 
-.MenuList{
-    margin-bottom: 200px;
-}
