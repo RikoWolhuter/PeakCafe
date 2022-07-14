@@ -74,7 +74,8 @@ html{ scroll-behavior: smooth; }
     text-align: center;
     width:250px;
     height:250px;
-    border-radius: 15px 50px
+    border-radius: 15px 50px;
+    
 }
 
 #buttonVisit{
@@ -84,13 +85,31 @@ html{ scroll-behavior: smooth; }
     border-radius: 50px 15px
 }
 
+#iconWifi{
+    width:50px;
+    height:50px;
+
+}
+
+#iconCoffee{
+    margin-top:5px;
+    width:50px;
+    height:50px;
+}
+
+#iconKnifeFork{
+    margin-top:5px;
+    width:50px;
+    height:50px;
+}
+
+
 
 .about{
     text-align: center;
     padding:50px;
     background: radial-gradient(#dea814,#c2d93f);    
 }
-
 
 
 .containerAbout{
