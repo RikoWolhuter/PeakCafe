@@ -13,13 +13,15 @@ h1{
 .galleryContainer{
     display:grid;
     grid-template-columns: auto auto auto auto;
-    grid-gap:3px;
+    grid-gap:5px;
     padding:30px;
     overflow: hidden;
+    background:linear-gradient(black,#c2d93f,black);
     
     
 
 }
+
 
 .galleryContainer img{
     transition: transform 1s;
