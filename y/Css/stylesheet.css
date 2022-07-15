@@ -34,9 +34,15 @@ html{ scroll-behavior: smooth; }
     z-index: 9999;   
     position: relative;
     
-  
-    
 }
+
+
+
+/*gdaga hamburger/*/ 
+
+
+
+
 
 .carousel-control-prev{
     width: 1%;
@@ -244,7 +250,9 @@ footer h6{
 
 @media only screen and (max-width:991px){
     .galleryContainer{
-        display:block;
+        display:grid;
+        grid-template-columns: auto auto;
+   
         
     }
 }
