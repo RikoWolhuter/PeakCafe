@@ -16,6 +16,14 @@ html{ scroll-behavior: smooth; }
     opacity: 1 !important;
 }
 
+#carouselImgOne{
+    height:750px;
+}
+
+#carouselImgTwo{
+    height:750px;
+}
+
 .MenuList{
     position: absolute;
     margin-left: 30%;
@@ -166,6 +174,8 @@ html{ scroll-behavior: smooth; }
 .galleryContainer img{
     transition: transform 1s;
     overflow: hidden;
+    width:300px;
+    height:300px;
 }
 
 .galleryContainer img:hover{
