@@ -1,3 +1,10 @@
+.nav-link{
+    margin-top: 20px;
+    font-size: large;
+    font-weight: 400;
+    color: black;
+  }
+
 body{
     margin:0;
     background:linear-gradient(#c2d93f,black,black);

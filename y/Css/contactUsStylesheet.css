@@ -1,3 +1,10 @@
+.nav-link{
+    margin-top: 20px;
+    font-size: large;
+    font-weight: 400;
+    color: black;
+  }
+
 body{
     background-image: url(../images/pexels-barcelona-albertus-1924951.jpg);
 }
