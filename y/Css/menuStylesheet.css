@@ -1,12 +1,217 @@
-.container{
-    text-align: center;
-    border-style:solid;
-    border-width:5px;
-    margin-bottom:150px;
-}
 
-.containerTwo{
+.u-align-center {
     text-align: center;
-    border-style:solid;
-    border-width:5px;
+  }
+  .u-section-6 .u-sheet-1 {
+    min-height: 500px;
+  }
+
+  .u-section-6 .u-list-1 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+  .u-expanded-width {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-clearfix:after,
+.u-clearfix:before {
+  content: '';
+  display: table;
 }
+.u-clearfix:after {
+  clear: both;
+}
+@media (max-width: 575px) {
+    .u-section-5-2 .u-sheet-1 {
+      min-height: 287px;
+    }
+  
+    .u-section-5-2 .u-text-1 {
+      margin-top: 20px;
+    }
+  
+    .u-section-5-2 .u-text-2 {
+      font-size: 2.25rem;
+    }
+  }.u-section-6 .u-sheet-1 {
+    min-height: 771px;
+  }
+  
+  .u-section-6 .u-text-1 {
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 60px auto 0;
+  }
+  
+  .u-section-6 .u-text-2 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 20px auto 0;
+  }
+  
+  .u-section-6 .u-list-1 {
+    margin: 30px auto 60px;
+  }
+  
+  .u-section-6 .u-repeater-1 {
+    grid-template-columns: repeat(2, calc(50% - 5px));
+    min-height: 375px;
+    grid-gap: 10px;
+  }
+  
+  .u-section-6 .u-container-layout-1 {
+    padding: 30px;
+  }
+  
+  .u-section-6 .u-text-3 {
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 0 auto;
+  }
+  
+  .u-section-6 .u-text-4 {
+    margin: 20px 0 0;
+  }
+  
+  .u-section-6 .u-container-layout-2 {
+    padding: 30px;
+  }
+  
+  .u-section-6 .u-text-5 {
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 0 auto;
+  }
+  
+  .u-section-6 .u-text-6 {
+    margin: 20px 0 0;
+  }
+  
+  .u-section-6 .u-container-layout-3 {
+    padding: 30px;
+  }
+  
+  .u-section-6 .u-text-7 {
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 0 auto;
+  }
+  
+  .u-section-6 .u-text-8 {
+    margin: 20px 91px 0 0;
+  }
+  
+  .u-section-6 .u-container-layout-4 {
+    padding: 30px;
+  }
+  
+  .u-section-6 .u-text-9 {
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 0 auto;
+  }
+  
+  .u-section-6 .u-text-10 {
+    margin: 20px 97px 0 0;
+  }
+  
+  .u-section-6 .u-container-layout-5 {
+    padding: 30px;
+  }
+  
+  .u-section-6 .u-text-11 {
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 0 auto;
+  }
+  
+  .u-section-6 .u-text-12 {
+    margin: 20px 0 0;
+  }
+  
+  .u-section-6 .u-container-layout-6 {
+    padding: 30px;
+  }
+  
+  .u-section-6 .u-text-13 {
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 0 auto;
+  }
+  
+  .u-section-6 .u-text-14 {
+    margin: 20px 0 0;
+  }
+  
+  @media (max-width: 1199px) {
+    .u-section-6 .u-sheet-1 {
+      min-height: 500px;
+    }
+  
+    .u-section-6 .u-list-1 {
+      margin-right: initial;
+      margin-left: initial;
+    }
+  
+    .u-section-6 .u-text-8 {
+      margin-right: 0;
+    }
+  
+    .u-section-6 .u-text-10 {
+      margin-right: 0;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .u-section-6 .u-repeater-1 {
+      grid-template-columns: repeat(1, 100%);
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .u-section-6 .u-container-layout-1 {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .u-section-6 .u-container-layout-2 {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .u-section-6 .u-container-layout-3 {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .u-section-6 .u-container-layout-4 {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .u-section-6 .u-container-layout-5 {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .u-section-6 .u-container-layout-6 {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    .u-section-6 .u-text-2 {
+      font-size: 2.25rem;
+    }
+  }
