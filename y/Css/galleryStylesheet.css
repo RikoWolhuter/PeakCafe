@@ -1,3 +1,4 @@
+
 .list-unstyled{
     display:inline-block;
     padding-left:40px ;
@@ -5,8 +6,17 @@
     padding-top:80px;
 }
 
+.menuList ul{
+    background-image: url(../images/design-3561661\ dark.jpg);
+    background-size: 500px 500px; 
+}
+
+header{
+    background-image: url(../images/design-3561661\ dark.jpg);
+    background-size: 500px 500px; 
+}
+
 footer{
-    
     background: linear-gradient( #c2d93f,#a3a09e);
     padding:50px;
 }
@@ -28,6 +38,11 @@ footer div ul li img:hover{
 footer h6{
     font-family:monospace;
     font-size:23px;
+}
+
+footer{
+    background-image: url(../images/design-3561661\ dark.jpg);
+    background-size: 500px 500px;
 }
 
 .display-3{
@@ -61,8 +76,9 @@ nav{
     background:linear-gradient(black,#c2d93f);
 }
 
-h1{
+h3{
     text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
 }
 
 
@@ -73,9 +89,7 @@ h1{
     padding:30px;
     overflow: hidden;
     background:linear-gradient(black,#c2d93f,black);
- 
-    
-    
+  
 
 }
 
