@@ -56,17 +56,24 @@ nav{
     margin-bottom:100px;
 }
 
+
+.menuList{
+    background:linear-gradient(black,#c2d93f);
+}
+
 h1{
     text-align: center;
 }
 
+
 .galleryContainer{
     display:grid;
     grid-template-columns: auto auto auto auto;
-    grid-gap:5px;
+    grid-gap:3px;
     padding:30px;
     overflow: hidden;
     background:linear-gradient(black,#c2d93f,black);
+ 
     
     
 
@@ -79,7 +86,11 @@ h1{
     width:100%;
     height:100%;
     object-fit: cover;
+    width:300px;
+    height:500px;
+
 }
+
 
 .galleryContainer img:hover{
     transform:scale(1.1)
@@ -88,11 +99,17 @@ h1{
 .imgSpanCol{
     grid-column:span 2;
     overflow: hidden;
+    
 }
 
 .imageSpanRow{
     grid-row:span 2;
     overflow: hidden;
+}
+
+#spanImg{
+    align-items:stretch;
+    width:100%;
 }
 
 
