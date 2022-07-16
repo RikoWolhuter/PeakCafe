@@ -1,4 +1,9 @@
-
+.nav-link{
+  margin-top: 20px;
+  font-size: large;
+  font-weight: 400;
+  color: black;
+}
 
 .u-align-center {
     text-align: center;
