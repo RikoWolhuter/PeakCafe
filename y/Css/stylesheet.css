@@ -289,6 +289,10 @@ footer h6{
     font-size:23px;
 }
 
+.credits{
+    margin-top: 70px;
+}
+
 @media only screen and (max-width:991px){
     .galleryContainer{
         display:grid;
