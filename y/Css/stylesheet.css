@@ -146,7 +146,7 @@ html{ scroll-behavior: smooth; }
 
 .about{
     text-align: center;
-    padding:50px;
+    padding:40px;
     background: radial-gradient(#dea814,#c2d93f);    
 }
 
@@ -166,7 +166,6 @@ html{ scroll-behavior: smooth; }
     border-width: 2px;
     border-color: #c2d93f;
     padding-bottom:150px;
-    padding-top:80px;
     background-color: black;
 }
 
@@ -176,7 +175,6 @@ html{ scroll-behavior: smooth; }
     border-width: 2px;
     border-color: #c2d93f;
     padding-bottom:150px;
-    padding-top:80px;
     background-color: black;
 
 }
