@@ -10,6 +10,11 @@
     color: black;
   }
 
+.MenuList ul li a{
+    font-size: 33px;
+    color: white;
+}
+
 .carousel-content {
     text-align: center;
     position: absolute;
@@ -71,14 +76,6 @@ html{ scroll-behavior: smooth; }
     position: relative;
     
 }
-
-
-
-/*gdaga hamburger/*/ 
-
-
-
-
 
 .carousel-control-prev{
     width: 1%;
