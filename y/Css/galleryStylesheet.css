@@ -1,4 +1,55 @@
-
+.navbar { font-family:Verdana !important; }
+ul li a{
+    color: #000;
+}
+.navbar{
+        padding: .5rem 1rem;
+        background:transparent;
+        color: #000;  
+    }
+     
+    .navbar-brand{
+        font-size: 1rem;
+        font-weight: 400;
+        color: #000;   
+    }    
+    
+    .nav-item1{
+        font-size: 1rem;
+        font-weight: 400; 
+        margin-right:25px;
+        color: #000;    
+    }
+    .nav-item2{
+        font-size: 1rem;
+        font-weight: 400; 
+        margin-right:40px; 
+        color: #000;   
+    }
+    .nav-item3{
+        font-size: 1rem;
+        font-weight: 400; 
+        margin-right:50px;   
+        color: #000;
+    }
+    .nav-item4{
+        font-size: 1rem;
+        font-weight: 400; 
+        margin-right:50px; 
+        color: #000;   
+    }
+    .nav-item5{
+        font-size: 1rem;
+        font-weight: 400; 
+        margin-right:20px;   
+        color: #000;
+    }
+    .nav-item6{
+        font-size: 1rem;
+        font-weight: 400; 
+        margin-right:20px;
+        color: #000;
+    }
 .list-unstyled{
     display:inline-block;
     padding-left:40px ;

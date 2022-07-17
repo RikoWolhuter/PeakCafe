@@ -3,8 +3,72 @@
  * License https://froala.com/wysiwyg-editor/terms/
  * Copyright 2014-2021 Froala Labs
  */
+ h2{
+  margin-top: 80px;
+}
+.u-text-1{
+  margin-top: 80px;
+}
+ .navbar { font-family:Verdana !important; }
+ ul li a{
+     color: #000;
+ }
+ .navbar{
+         padding: .5rem 1rem;
+         background:transparent;
+         color: #000;  
+     }
+      
+     .navbar-brand{
+         font-size: 1rem;
+         font-weight: 400;
+         color: #000;   
+     }    
+     
+     .nav-item1{
+         font-size: 1rem;
+         font-weight: 400; 
+         margin-right:25px;
+         color: #000;    
+     }
+     .nav-item2{
+         font-size: 1rem;
+         font-weight: 400; 
+         margin-right:40px; 
+         color: #000;   
+     }
+     .nav-item3{
+         font-size: 1rem;
+         font-weight: 400; 
+         margin-right:50px;   
+         color: #000;
+     }
+     .nav-item4{
+         font-size: 1rem;
+         font-weight: 400; 
+         margin-right:50px; 
+         color: #000;   
+     }
+     .nav-item5{
+         font-size: 1rem;
+         font-weight: 400; 
+         margin-right:20px;   
+         color: #000;
+     }
+     .nav-item6{
+         font-size: 1rem;
+         font-weight: 400; 
+         margin-right:20px;
+         color: #000;
+     }
+ .nav-link{
+     margin-top: 20px;
+     font-size: large;
+     font-weight: 400;
+     color: black;
+   }
 
-.fr-clearfix::after {
+ .fr-clearfix::after {
   clear: both;
   display: block;
   content: "";
@@ -360,7 +424,7 @@ span.fr-img-caption.fr-view {
       float: right;
       margin: 5px 0 5px 5px;
       max-width: calc(100% - 5px); }
-/*end-commonstyles library*/@charset "UTF-8";
+/*end-commonstyles library*/ 
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
@@ -19396,30 +19460,7 @@ a.pswp__share--download:hover {
     opacity: 1;
   }
 }
-@keyframes customAnimationIn {
-  from {
-    transform-origin: center center;
-    transform: translate3d(var(--animation-custom_in-translate_x), var(--animation-custom_in-translate_y), 0) scale3d(var(--animation-custom_in-scale), var(--animation-custom_in-scale), var(--animation-custom_in-scale)) rotate3d(0, 0, 1, var(--animation-custom_in-rotate));
-    opacity: var(--animation-custom_in-opacity);
-  }
-  to {
-    transform-origin: center center;
-    transform: translate3d(-50% !important, -50% !important, 0);
-    opacity: 1;
-  }
-}
-@keyframes customAnimationOut {
-  from {
-    transform-origin: center center;
-    transform: translate3d(-50% !important, -50% !important, 0);
-    opacity: 1;
-  }
-  to {
-    transform-origin: center center;
-    transform: translate3d(var(--animation-custom_in-translate_x), var(--animation-custom_in-translate_y), 0) scale3d(var(--animation-custom_in-scale), var(--animation-custom_in-scale), var(--animation-custom_in-scale)) rotate3d(0, 0, 1, var(--animation-custom_in-rotate));
-    opacity: var(--animation-custom_in-opacity);
-  }
-}
+
 .customAnimationIn {
   animation-name: customAnimationIn;
 }
