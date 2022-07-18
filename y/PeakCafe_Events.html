@@ -36,7 +36,7 @@
   
   <body class="u-body u-xl-mode" data-lang="en"> 
     <br>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top bg-transparent">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top bg-transparent">
         
       <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon navbar-light"></span>
@@ -102,7 +102,18 @@
       </div>
     </section>
     
-    
+    <script>
+      var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-50px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+    </script>
     
     
   
