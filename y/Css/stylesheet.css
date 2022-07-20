@@ -50,15 +50,7 @@ html{ scroll-behavior: smooth; }
     font-family: 'Roboto';
 }
 
-#carouselImgOne{
-    height:750px;
-    font-family: 'Roboto';
-}
 
-#carouselImgTwo{
-    height:750px;
-    font-family: 'Roboto';
-}
 
 
 
@@ -312,7 +304,19 @@ footer h6{
 
 
 @media only screen and (max-width:10000px){
+    #carouselImgOne{
+        size: cover;     
+        font-family: 'Roboto';
+    }
     
+    #carouselImgTwo{
+        size: cover;
+        font-family: 'Roboto';
+    }
+    #carouselImg{
+        size: cover;
+        font-family: 'Roboto';
+    }
 
      .Logo{
         position:absolute;
@@ -376,7 +380,19 @@ footer h6{
 }
 
 @media only screen and (max-width:2600px){
-
+    #carouselImgOne{
+        size: cover;
+        font-family: 'Roboto';
+    }
+    
+    #carouselImgTwo{
+        size: cover;
+        font-family: 'Roboto';
+    }
+    #carouselImg{
+        size: cover;
+        font-family: 'Roboto';
+    }
      .Logo{
         position:absolute;
         z-index:2;
@@ -438,7 +454,19 @@ footer h6{
 }
 
 @media only screen and (max-width:2000px){
-
+    #carouselImgOne{
+        size: cover;
+        font-family: 'Roboto';
+    }
+    
+    #carouselImgTwo{
+        size: cover;
+        font-family: 'Roboto';
+    }
+    #carouselImg{
+        size: cover;
+        font-family: 'Roboto';
+    }
      .Logo{
         position:absolute;
         z-index:2;
@@ -502,7 +530,19 @@ footer h6{
 }
 
 @media only screen and (max-width:1752px){
-
+    #carouselImgOne{
+        size: cover;
+        font-family: 'Roboto';
+    }
+    
+    #carouselImgTwo{
+        size: cover;
+        font-family: 'Roboto';
+    }
+    #carouselImg{
+        size: cover;
+        font-family: 'Roboto';
+    }
      .Logo{
         position:absolute;
         z-index:2;
@@ -564,7 +604,19 @@ footer h6{
     }
 }
 @media only screen and (max-width:1622px){
-
+    #carouselImgOne{
+        size: cover;
+        font-family: 'Roboto';
+    }
+    
+    #carouselImgTwo{
+        size: cover;
+        font-family: 'Roboto';
+    }
+    #carouselImg{
+        size: cover;
+        font-family: 'Roboto';
+    }
      .Logo{
         position:absolute;
         z-index:2;
@@ -626,7 +678,19 @@ footer h6{
     }
 }
 @media only screen and (max-width:1376px){
-
+    #carouselImgOne{
+        size: cover;
+        font-family: 'Roboto';
+    }
+    
+    #carouselImgTwo{
+        size: cover;
+        font-family: 'Roboto';
+    }
+    #carouselImg{
+        size: cover;
+        font-family: 'Roboto';
+    }
      .Logo{
         position:absolute;
         z-index:2;
@@ -688,6 +752,22 @@ footer h6{
     }
 }
 
+@media only screen and (max-width:1331px){
+    #carouselImgOne{
+        size: cover;
+        font-family: 'Roboto';
+    }
+    
+    #carouselImgTwo{
+        size: cover;
+        font-family: 'Roboto';
+    }
+    #carouselImg{
+        size: cover;
+        font-family: 'Roboto';
+    }
+}
+
 @media only screen and (max-width:991px){
     .galleryContainer{
         display:grid;
@@ -695,9 +775,27 @@ footer h6{
    
         
     }
+    #carouselImgOne{
+        height:750px;
+        font-family: 'Roboto';
+    }
+    
+    #carouselImgTwo{
+        height:750px;
+        font-family: 'Roboto';
+    }
 }
 
 @media only screen and (max-width:700px){
+    #carouselImgOne{
+        height:750px;
+        font-family: 'Roboto';
+    }
+    
+    #carouselImgTwo{
+        height:750px;
+        font-family: 'Roboto';
+    }
     .Logo{
         position:absolute;
         z-index:2;
@@ -760,6 +858,15 @@ footer h6{
     }
 }
 @media only screen and (max-width:400px){
+    #carouselImgOne{
+        height:750px;
+        font-family: 'Roboto';
+    }
+    
+    #carouselImgTwo{
+        height:750px;
+        font-family: 'Roboto';
+    }
     .Logo{
         position:absolute;
         z-index:2;
