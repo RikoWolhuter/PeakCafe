@@ -1,4 +1,4 @@
-.navbar { font-family:Verdana !important;
+.navbar { font-family: 'Roboto' !important;
     background-color: #333; /* Black background color */
     position: absolute; /* Make it stick/fixed */
     top: 0; /* Stay on top */
@@ -6,6 +6,7 @@
     transition: top 0.3s; /* Transition effect when sliding down (and up) */ }
 ul li a{
     color: #000;
+    font-family: 'Roboto';
 }
 .navbar{
         padding: .5rem 1rem;
@@ -60,25 +61,30 @@ ul li a{
     padding-left:40px ;
     padding-right:40px ;
     padding-top:80px;
+    font-family: 'Roboto';
 }
 
 .menuList ul{
     background-image: url(../images/design-3561661\ dark.jpg);
     background-size: 500px 500px; 
+    font-family: 'Roboto';
 }
 
 header{
     background-image: url(../images/design-3561661\ dark.jpg);
     background-size: 500px 500px; 
+    font-family: 'Roboto';
 }
 
 footer{
     background: linear-gradient( #c2d93f,#a3a09e);
     padding:50px;
+    font-family: 'Roboto';
 }
 
 footer div{
     text-align: center;
+    font-family: 'Roboto';
 }
 
 
@@ -92,23 +98,26 @@ footer div ul li img:hover{
 }
 
 footer h6{
-    font-family:monospace;
+    font-family: 'Roboto';
     font-size:23px;
 }
 
 footer{
     background-image: url(../images/design-3561661\ dark.jpg);
     background-size: 500px 500px;
+    font-family: 'Roboto';
 }
 
 .display-3{
     text-align: center;
+    font-family: 'Roboto';
     
 }
 
 .display-1{
     margin-top: 20px;
     margin-bottom: 50px;
+    font-family: 'Roboto';
 }
 
 .nav-link{
@@ -116,15 +125,18 @@ footer{
     font-size: large;
     font-weight: 400;
     color: black;
+    font-family: 'Roboto';
   }
 
 body{
     margin:0;
     background:linear-gradient(#c2d93f,black,black);
+    font-family: 'Roboto';
 }
 
 nav{
     margin-bottom:100px;
+    font-family: 'Roboto';
 }
 
 
@@ -134,7 +146,7 @@ nav{
 
 h3{
     text-align: center;
-    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-family: 'Roboto';
 }
 
 
@@ -145,7 +157,7 @@ h3{
     padding:30px;
     overflow: hidden;
     background:linear-gradient(black,#c2d93f,black);
-  
+    font-family: 'Roboto';
 
 }
 
@@ -158,7 +170,7 @@ h3{
     object-fit: cover;
     width:300px;
     height:500px;
-
+    font-family: 'Roboto';
 }
 
 
@@ -187,7 +199,7 @@ h3{
     .galleryContainer{
         display:grid;
         grid-template-columns: auto auto auto;
-
+        font-family: 'Roboto';
     }
 }
 
@@ -196,6 +208,6 @@ h3{
     .galleryContainer{
         display:grid;
         grid-template-columns: auto auto;
-
+        font-family: 'Roboto';
     }
 }

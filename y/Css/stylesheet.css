@@ -1,10 +1,11 @@
 
-.navbar { font-family:Verdana !important;
+.navbar { font-family: 'Roboto' !important;
     background-color: #333; /* Black background color */
     position: absolute; /* Make it stick/fixed */
     top: 0; /* Stay on top */
     width: 100%; /* Full width */
     transition: top 0.3s;
+    
      /* Transition effect when sliding down (and up) */ }
 
 
@@ -13,7 +14,7 @@
 #navbar ul li a{
     color:white;
     font-size: 25px;
-
+    font-family: 'Roboto';
 }
 
 .carousel-content {
@@ -23,14 +24,14 @@
     left: 5%;
     z-index: 20;
     color: rgb(0, 0, 0);
-    
+    font-family: 'Roboto';
   }
 
 html{ scroll-behavior: smooth; }
 
 .display-3{
     text-align: center;
-    
+    font-family: 'Roboto';
 }
 
 
@@ -38,18 +39,22 @@ html{ scroll-behavior: smooth; }
     display: block;
     opacity: 0;
     transition: opacity ease-out .3s;
+    font-family: 'Roboto';
 }
 
 .carousel.carousel-fade .carousel-item.active {
     opacity: 1 !important;
+    font-family: 'Roboto';
 }
 
 #carouselImgOne{
     height:750px;
+    font-family: 'Roboto';
 }
 
 #carouselImgTwo{
     height:750px;
+    font-family: 'Roboto';
 }
 
 
@@ -58,11 +63,11 @@ html{ scroll-behavior: smooth; }
 
 .carousel-control-prev{
     width: 1%;
-    
+    font-family: 'Roboto';
 }
 .carousel-control-next{
     width: 1%;
-    
+    font-family: 'Roboto';
 }
 
 
@@ -71,6 +76,7 @@ html{ scroll-behavior: smooth; }
     width: 10px;
     height: 10px;
     border-radius: 100%;
+    font-family: 'Roboto';
   }
 
 
@@ -78,6 +84,7 @@ html{ scroll-behavior: smooth; }
     text-align: center;
     padding-bottom:300px;
     background:linear-gradient(#a3a09e,#c2d93f ,#a3a09e);
+    font-family: 'Roboto';
 }
 
 #buttonTakeaway{
@@ -85,32 +92,35 @@ html{ scroll-behavior: smooth; }
     width:210px;
     height:210px;
     border-radius: 15px 50px;
-    
+    font-family: 'Roboto';
 }
 
 #buttonVisit{
     text-align: center;
     width:210px;
     height:210px;
-    border-radius: 50px 15px
+    border-radius: 50px 15px;
+    font-family: 'Roboto';
 }
 
 #iconWifi{
     width:50px;
     height:50px;
-
+    font-family: 'Roboto';
 }
 
 #iconCoffee{
     margin-top:5px;
     width:50px;
     height:50px;
+    font-family: 'Roboto';
 }
 
 #iconKnifeFork{
     margin-top:5px;
     width:50px;
     height:50px;
+    font-family: 'Roboto';
 }
 
 
@@ -118,18 +128,20 @@ html{ scroll-behavior: smooth; }
 .about{
     text-align: center;
     padding:40px;
-    background: radial-gradient(#dea814,#c2d93f);    
+    background: radial-gradient(#dea814,#c2d93f);
+    font-family: 'Roboto';    
 }
 
 
 .containerAbout{
     text-align: center;
-    
+    font-family: 'Roboto';
 }
 
 .containerAbout img{
     width:100%;
     height:100%;
+    font-family: 'Roboto';
 }
 
 #borderOne{
@@ -138,6 +150,7 @@ html{ scroll-behavior: smooth; }
     border-color: #c2d93f;
     padding-bottom:150px;
     background-color: black;
+    font-family: 'Roboto';
 }
 
 #borderTwo{
@@ -146,18 +159,20 @@ html{ scroll-behavior: smooth; }
     border-color: #c2d93f;
     padding-bottom:150px;
     background-color: black;
-
+    font-family: 'Roboto';
 }
 
 .row {
     margin-right: 0px;
     margin-left: 0px;
+    font-family: 'Roboto';
 }
   
 .gallery{
     padding-top:200px;
     padding-bottom:100px;
     background-color:#c2d93f;
+    font-family: 'Roboto';
 }
 
 .galleryContainer{
@@ -167,7 +182,7 @@ html{ scroll-behavior: smooth; }
     grid-gap:3px;
     padding:30px;
     overflow: hidden;
-    
+    font-family: 'Roboto';
     
 
 }
@@ -177,27 +192,30 @@ html{ scroll-behavior: smooth; }
     overflow: hidden;
     width:300px;
     height:300px;
+    font-family: 'Roboto';
 }
 
 .galleryContainer img:hover{
-    transform:scale(1.1)
+    transform:scale(1.1);
+    font-family: 'Roboto';
 }
 
 .container img{
     transition: transform 1s;
     overflow: hidden;
+    font-family: 'Roboto';
 }
 
 .container img:hover{
     transform:scale(1.5);
-
+    font-family: 'Roboto';
 }
 
 .container{
     text-align: center;
     background-color: #c2d93f;
     padding:100px;
-    
+    font-family: 'Roboto';
 }
 
 .backgroundOfContainer{
@@ -208,19 +226,22 @@ html{ scroll-behavior: smooth; }
     background-size: cover;
     padding-top: 120px;
     padding-bottom: 120px;
+    font-family: 'Roboto';
 }
 
 .container h3{
     padding-top:30px;
-    
+    font-family: 'Roboto';
 }
 
 #containerHeading{
     padding-bottom: 100px;
+    font-family: 'Roboto';
 }
 
 .col-sm-4{
     border-radius: 30px;
+    font-family: 'Roboto';
 }
 
 .ul .li{
@@ -229,11 +250,12 @@ html{ scroll-behavior: smooth; }
     padding-right:40px ;
     list-style: none;
     padding-top: 80px;
-    
+    font-family: 'Roboto';
 }
 
 ul li a{
     color: #000;
+    font-family: 'Roboto';
 }
 
 
@@ -241,32 +263,36 @@ ul li a{
 
 
 footer{
-    
+    font-family: 'Roboto';
     background: linear-gradient( #c2d93f,#a3a09e);
     padding:50px;
 }
 
 footer div{
     text-align: center;
+    font-family: 'Roboto';
 }
 
 
 footer div ul li img{
     transition: transform 1.3s;
+    font-family: 'Roboto';
 }
 
 footer div ul li img:hover{
-    transform:scale(2)
-
+    transform:scale(2);
+    font-family: 'Roboto';
 }
 
 footer h6{
     font-family:monospace;
     font-size:23px;
+    font-family: 'Roboto';
 }
 
 .credits{
     margin-top: 70px;
+    font-family: 'Roboto';
 }
 
 
@@ -287,6 +313,7 @@ footer h6{
         padding: .5rem 1rem;
         background:transparent;
         color: #000;  
+        font-family: 'Roboto';
     }
      
     .navbar-brand{
@@ -349,6 +376,7 @@ footer h6{
         padding: .5rem 1rem;
         background:transparent;
         color: #000;  
+        font-family: 'Roboto';
     }
      
     .navbar-brand{
@@ -410,6 +438,7 @@ footer h6{
         padding: .5rem 1rem;
         background:transparent;
         color: #000;  
+        font-family: 'Roboto';
     }
      
     .navbar-brand{
@@ -474,6 +503,7 @@ footer h6{
         padding: .5rem 1rem;
         background:transparent;
         color: #000;  
+        font-family: 'Roboto';
     }
      
     .navbar-brand{
@@ -534,7 +564,8 @@ footer h6{
     .navbar{
         padding: .5rem 1rem;
         background:transparent;
-        color: #000;  
+        color: #000; 
+        font-family: 'Roboto'; 
     }
      
     .navbar-brand{
@@ -596,6 +627,7 @@ footer h6{
         padding: .5rem 1rem;
         background:transparent;
         color: #000;
+        font-family: 'Roboto';
     }
      
     .navbar-brand{
@@ -666,6 +698,7 @@ footer h6{
         padding: .5rem 1rem;
         background:transparent;
         color: #000;  
+        font-family: 'Roboto';
     }
      
     .navbar-brand{
@@ -726,7 +759,8 @@ footer h6{
     .navbar{
         padding: .5rem 1rem;
         background:transparent;
-        color: #000;  
+        color: #000; 
+        font-family: 'Roboto'; 
     }
      
     .navbar-brand{
