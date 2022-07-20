@@ -4,9 +4,13 @@
     position: absolute; /* Make it stick/fixed */
     top: 0; /* Stay on top */
     width: 100%; /* Full width */
+<<<<<<< HEAD
     transition: top 0.3s;
     
      /* Transition effect when sliding down (and up) */ }
+=======
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */ }
+>>>>>>> 29b12eb00f982d9b8efabe77d84f8d4fbfbba4a2
 
 
 
@@ -83,8 +87,12 @@ html{ scroll-behavior: smooth; }
 .Takeaway{
     text-align: center;
     padding-bottom:300px;
+<<<<<<< HEAD
     background:linear-gradient(#a3a09e,#c2d93f ,#a3a09e);
     font-family: 'Roboto';
+=======
+    background:linear-gradient(#a3a09e,#c2d93f,#a3a09e);
+>>>>>>> 29b12eb00f982d9b8efabe77d84f8d4fbfbba4a2
 }
 
 #buttonTakeaway{
@@ -128,8 +136,12 @@ html{ scroll-behavior: smooth; }
 .about{
     text-align: center;
     padding:40px;
+<<<<<<< HEAD
     background: radial-gradient(#dea814,#c2d93f);
     font-family: 'Roboto';    
+=======
+    background: linear-gradient(#c2d93f ,#29A4C3 3%);    
+>>>>>>> 29b12eb00f982d9b8efabe77d84f8d4fbfbba4a2
 }
 
 
@@ -171,8 +183,12 @@ html{ scroll-behavior: smooth; }
 .gallery{
     padding-top:200px;
     padding-bottom:100px;
+<<<<<<< HEAD
     background-color:#c2d93f;
     font-family: 'Roboto';
+=======
+    background:linear-gradient(#29A4C3 50%,#c2d93f 50%);
+>>>>>>> 29b12eb00f982d9b8efabe77d84f8d4fbfbba4a2
 }
 
 .galleryContainer{
@@ -220,7 +236,7 @@ html{ scroll-behavior: smooth; }
 
 .backgroundOfContainer{
     background-image: url("/images/Fish-Hoek-beach.jpeg");
-    background:linear-gradient(#a3a09e,#380000);
+    background:linear-gradient(#a3a09e,#29A4C3);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
