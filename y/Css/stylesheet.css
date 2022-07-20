@@ -117,7 +117,7 @@ html{ scroll-behavior: smooth; }
 .about{
     text-align: center;
     padding:40px;
-    background: radial-gradient(#c2d93f 0%,#c2d93f 10%,#29A4C3 80%,#c2d93f 90%);    
+    background: linear-gradient(#c2d93f ,#29A4C3 3%);    
 }
 
 
@@ -156,7 +156,7 @@ html{ scroll-behavior: smooth; }
 .gallery{
     padding-top:200px;
     padding-bottom:100px;
-    background-color:#c2d93f;
+    background:linear-gradient(#29A4C3 50%,#c2d93f 50%);
 }
 
 .galleryContainer{
