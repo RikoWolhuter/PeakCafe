@@ -233,6 +233,7 @@ html{ scroll-behavior: smooth; }
     text-align: center;
     background-color: #c2d93f;
     padding:100px;
+    padding-bottom:150px;
     font-family: 'Roboto';
 }
 
@@ -260,6 +261,10 @@ html{ scroll-behavior: smooth; }
 .col-sm-4{
     border-radius: 30px;
     font-family: 'Roboto';
+}
+
+#rowTwo{
+    margin-top:50px;
 }
 
 .ul .li{
