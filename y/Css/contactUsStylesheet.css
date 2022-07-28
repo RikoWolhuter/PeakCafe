@@ -88,6 +88,11 @@ h2{
     color: white;
 }
 
+.row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
 .container{
     text-align: center;
     margin-bottom: 150px;
@@ -106,7 +111,9 @@ form{
 .containerTwo{
     text-align: center;
     
+    
 }
+
 
 ul li{
     color: white;
