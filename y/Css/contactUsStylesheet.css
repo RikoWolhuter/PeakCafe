@@ -84,6 +84,11 @@ nav{
     font-family: 'Roboto';
 }
 
+#tellUsHeading{
+    margin-bottom: 50px;
+    padding-top: 30px;
+}
+
 h2{
     color: white;
 }
@@ -97,6 +102,14 @@ h2{
     text-align: center;
     margin-bottom: 150px;
     color:white;
+}
+
+#contactFormOne{
+    margin-right: 25px;
+}
+
+#contactFormTwo{
+    margin-left: 25px;
 }
 
 form{
