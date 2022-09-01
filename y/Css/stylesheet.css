@@ -77,14 +77,14 @@ html{ scroll-behavior: smooth; }
 
 .Takeaway{
     text-align: center;
-<<<<<<< HEAD
+
     padding-bottom:100px;
 
     background:#c2d93f;
-=======
+
     padding-bottom:300px;
     background-color:white;
->>>>>>> 05809665802ead600642adfc68f258015b23cdea
+
     font-family: 'Roboto';
     background:url(../images/wave2.svg);
     background-position:left; 
