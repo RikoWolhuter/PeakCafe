@@ -84,8 +84,18 @@ nav{
     font-family: 'Roboto';
 }
 
+#tellUsHeading{
+    margin-bottom: 50px;
+    padding-top: 30px;
+}
+
 h2{
     color: white;
+}
+
+.row{
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 .container{
@@ -94,19 +104,29 @@ h2{
     color:white;
 }
 
+#contactFormOne{
+    margin-right: 25px;
+}
+
+#contactFormTwo{
+    margin-left: 25px;
+}
+
 form{
     display:block;
 }
 
 #submit{
-    background-color:#eb9b34;
+    background-color:white;
     color: black;
 }
 
 .containerTwo{
     text-align: center;
     
+    
 }
+
 
 ul li{
     color: white;
