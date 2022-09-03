@@ -61,34 +61,34 @@
         <form action="" method="POST" id="contactFormOne">
           <h2>Comments</h2>
           <label class="form-label">Name</label>
-          <input type="text" class="form-control" id="name" name="name" required>
+          <input type="text" class="form-control" id="CommentName" name="name" required>
 
           <label>Email</label>
-          <input type="email" class="form-control" id="email" name="email" required>
+          <input type="email" class="form-control" id="CommentEmail" name="email" required>
 
           <label>Phone</label>
-          <input type="tel" class="form-control" id="phone" name="phone">
+          <input type="tel" class="form-control" id="CommentPhone" name="phone">
 
-          <textarea name="textBox" class="form-control" id="textBox" form="contactFormOne">Enter text here</textarea>
+          <textarea name="textBox" class="form-control" id="CommentTextBox" form="contactFormOne">Enter text here</textarea>
 
-          <input type="submit" class="form-control" id="submit" name="submit">
+          <button onclick="CommentwriteData()"  class="form-control" id="CommentSubmit" >submit</button>
         </form>
       </div>
       <div class="col-sm-6">
         <form action="" method="POST" id="contactFormTwo">
           <h2>Contact us</h2>
           <label>Name</label>
-          <input type="text" class="form-control" id="name" name="name" required>
+          <input type="text" class="form-control" id="ContactName" name="name" required>
 
           <label>Email</label>
-          <input type="email" class="form-control" id="email" name="email" required>
+          <input type="email" class="form-control" id="ContactEmail" name="email" required>
 
           <label>Phone</label>
-          <input type="tel" class="form-control" id="phone" name="phone">
+          <input type="tel" class="form-control" id="ContactPhone" name="phone">
           
-          <textarea name="textBox" class="form-control" id="textBox" form="contactFormOne">Enter text here</textarea>
+          <textarea name="textBox" class="form-control" id="ContactTextBox" form="contactFormOne">Enter text here</textarea>
 
-          <input type="submit"class="form-control" id="submit" name="submit">
+          <button onclick="ContactwriteData()" class="form-control" id="ContactSubmit" >submit</button>
         </form>
       </div>
     </div>
@@ -114,12 +114,12 @@
       </div>
       <div class="col-sm-3">
         <ul class="list-unstyled" >
-          <li class="lead"><h5>Monday	1</h5></li>
-          <li class="lead"><h5>Tuesday	1</h5></li>
-          <li class="lead"><h5>Wednesday	1</h5></li>
-          <li class="lead"><h5>Thursday	1</h5></li>
-          <li class="lead"><h5>Friday	1</h5></li>
-          <li class="lead"><h5>Saturday	1</h5></li>
+          <li class="lead"><h5>Monday	7am-4pm</h5></li>
+          <li class="lead"><h5>Tuesday	7am-4pm</h5></li>
+          <li class="lead"><h5>Wednesday	7am-4pm</h5></li>
+          <li class="lead"><h5>Thursday	7am-4pm</h5></li>
+          <li class="lead"><h5>Friday	7am-4pm</h5></li>
+          <li class="lead"><h5>Saturday	7am-2pm</h5></li>
           <li class="lead"><h5>Sunday	Closed</h5></li>
         </ul>
       </div>
@@ -166,8 +166,8 @@
 
 <script type="module">
   // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.0/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.0/firebase-analytics.js";
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.4/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.4/firebase-analytics.js";
   // TODO: Add SDKs for Firebase products that you want to use
   // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -176,16 +176,39 @@
   const firebaseConfig = {
     apiKey: "AIzaSyC5S4Ao2z7rNKss5d8OEthc5qNYiUYeJbY",
     authDomain: "peakacademywebsite.firebaseapp.com",
+    databaseURL: "https://peakacademywebsite-default-rtdb.firebaseio.com",
     projectId: "peakacademywebsite",
     storageBucket: "peakacademywebsite.appspot.com",
     messagingSenderId: "29394216487",
-    appId: "1:29394216487:web:9c787e16d316401766d002",
-    measurementId: "G-PPN4T1GZEJ"
+    appId: "1:29394216487:web:7588beb3a1f00df166d002",
+    measurementId: "G-EYEDY5SD4Z"
   };
 
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
   const analytics = getAnalytics(app);
+
+  function CommentwriteData(){
+firebase.database().ref("CommentUser").set({
+  name:document.getElementById("CommentName").value,
+  email:document.getElementById("CommentEmail").value,
+  phone:document.getElementById("CommentPhone").value,
+  message:document.getElementById("CommentTextBox").value
+})
+};
+function ContactwriteData(){
+firebase.database().ref("ContactUser").set({
+  name:document.getElementById("ContactName").value,
+  email:document.getElementById("ContactEmail").value,
+  phone:document.getElementById("ContactPhone").value,
+  message:document.getElementById("ContactTextBox").value
+})
+};
 </script>
+
+
+
+
+
   </body>
 </html>

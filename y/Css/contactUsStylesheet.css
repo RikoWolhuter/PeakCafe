@@ -137,34 +137,61 @@ ul li{
     font-family: 'Roboto';
 }
 
-#name{
+#CommentName{
+    display:block;
+    height:50px;
+    font-family: 'Roboto';
+}
+#ContactName{
     display:block;
     height:50px;
     font-family: 'Roboto';
 }
 
-#email{
+#CommentEmail{
+    display:block;
+    height:50px;
+    font-family: 'Roboto';
+}
+#ContactEmail{
     display:block;
     height:50px;
     font-family: 'Roboto';
 }
 
-#phone{
+#CommentPhone{
+    display:block;
+    height:50px;
+    font-family: 'Roboto';
+}
+#ContactPhone{
     display:block;
     height:50px;
     font-family: 'Roboto';
 }
 
-#textBox{
+#CommentTextBox{
     display:block;
     margin-top:50px;
     height:200px;
     font-family: 'Roboto';
-    color: #AFBD21;
+    color: #000000;
+    
+}
+#ContactTextBox{
+    display:block;
+    margin-top:50px;
+    height:200px;
+    font-family: 'Roboto';
+    color: #000000;
     
 }
 
-#submit{
+#CommentSubmit{
+    margin-top:50px;
+    font-family: 'Roboto';
+}
+#ContactSubmit{
     margin-top:50px;
     font-family: 'Roboto';
 }
