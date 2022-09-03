@@ -69,9 +69,11 @@ ul li a{
   }
 
 body{
-    background-image: url(../images/design-3561661\ dark.jpg);
+    background-image: url(../images/tom-podmore-e3QepI-chns-unsplash.jpg);
     background-size: 1500px 1500px;
     font-family: 'Roboto';
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 nav{
@@ -87,10 +89,11 @@ nav{
 #tellUsHeading{
     margin-bottom: 50px;
     padding-top: 30px;
+    color: #AFBD21;
 }
 
 h2{
-    color: white;
+    color: #AFBD21;
 }
 
 .row{
@@ -101,7 +104,7 @@ h2{
 .container{
     text-align: center;
     margin-bottom: 150px;
-    color:white;
+    color: #AFBD21;
 }
 
 #contactFormOne{
@@ -117,8 +120,8 @@ form{
 }
 
 #submit{
-    background-color:white;
-    color: black;
+    background-color:rgb(195, 248, 255);
+    color: #AFBD21;
 }
 
 .containerTwo{
@@ -129,7 +132,7 @@ form{
 
 
 ul li{
-    color: white;
+    color: #AFBD21;
     font-size:1px;
     font-family: 'Roboto';
 }
@@ -157,6 +160,8 @@ ul li{
     margin-top:50px;
     height:200px;
     font-family: 'Roboto';
+    color: #AFBD21;
+    
 }
 
 #submit{
