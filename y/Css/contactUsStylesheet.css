@@ -109,10 +109,12 @@ h2{
 
 #contactFormOne{
     margin-right: 25px;
+    text-align: center;
 }
 
 #contactFormTwo{
     margin-left: 25px;
+    text-align: center;
 }
 
 form{
@@ -196,3 +198,27 @@ ul li{
     font-family: 'Roboto';
 }
 
+iframe{
+    margin:auto;
+    align-items: center;
+}
+
+#map{
+    margin: auto;
+    align-items: center;
+}
+
+@media only screen and (max-width:950px){
+    iframe{
+        width:400px;
+        
+    }
+}
+
+
+@media only screen and (max-width:950px){
+    #contactFormOne{
+        margin-left: 50px;
+        text-align: center;
+    }
+}

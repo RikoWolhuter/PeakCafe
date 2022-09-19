@@ -12,6 +12,7 @@ ul li a{
         padding: .5rem 1rem;
         background:transparent;
         color: #000;  
+        font-family: 'Roboto';
     }
      
     .navbar-brand{
@@ -25,6 +26,7 @@ ul li a{
         font-weight: 400; 
         margin-right:25px;
         color: #000;    
+        
     }
     .nav-item2{
         font-size: 1rem;

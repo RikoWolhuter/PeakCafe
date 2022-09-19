@@ -163,6 +163,8 @@ html{ scroll-behavior: smooth; }
 }
 
 
+
+
 .containerAbout{
     text-align: center;
     font-family: 'Roboto';
@@ -344,6 +346,26 @@ footer h6{
     background-size:cover;
 }
 
+
+
+
+
+@media only screen and (max-width:900px){
+    .about{
+        font-family: 'Roboto'; 
+        text-align: center;
+        padding:40px; 
+        margin-left:0px;
+        margin-right: 0px;
+       
+       
+    
+    
+        
+    
+    }
+
+}
 
 
 @media only screen and (max-width:10000px){
